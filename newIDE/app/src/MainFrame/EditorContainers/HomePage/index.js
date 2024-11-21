@@ -506,7 +506,7 @@ export const HomePage = React.memo<Props>(
                   )}
                   {activeTab === 'play' && <PlaySection />}
                   {activeTab === 'swap' && <SwapInterface />}
-                  {activeTab === 'community' && <CommunitySection />}
+                  {/* {activeTab === 'community' && <CommunitySection />} */}
                   {activeTab === 'shop' && (
                     <StoreSection
                       project={project}

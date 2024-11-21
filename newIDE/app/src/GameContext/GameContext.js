@@ -31,7 +31,7 @@ export const GameProvider = ({ children }) => {
   const [accessID, setAccessID] = useState('');
   const [boughtNFTs, setBoughtNFTs] = useState([]);
   const [isTransactionInProgress, setIsTransactionInProgress] = useState(false);
-  const nftCurrency = 'ETH';
+  const nftCurrency = 'XFI';
 
   const generateAccessId = () => {
     const timestamp = Date.now();

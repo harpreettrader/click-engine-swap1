@@ -179,7 +179,8 @@ const MainPage = ({
     {
       title: <Trans>Community</Trans>,
       description: <Trans>Ask your questions to the community</Trans>,
-      action: () => onTabChange('community'),
+      // action: () => onTabChange('community'),
+      action: () => {},
     },
   ].filter(Boolean);
 
